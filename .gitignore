@@ -1,5 +1,6 @@
 #things i'm not ready to share yet
 *.ignore
+*ignore*
 
 #MacOS crap
 *.DS_Store
