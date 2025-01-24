@@ -1,0 +1,41 @@
+{
+    "name": "rice-search_ff-all",
+    "version": "0.0.1",
+    "private": true,
+    "license": "(MIT OR CC-BY-NC-SA-3.0)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LoneStarMac/rice-search_ff-all.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LoneStarMac/rice-search_ff-all/issues"
+    },
+    "scripts": {
+        "test": "web-ext lint",
+        "build": "web-ext build --overwrite-dest",
+        "dev": "web-ext run"
+    },
+    "devDependencies": {
+        "web-ext": "^5.4.1"
+    },
+    "engines": {
+        "node": ">=12"
+    },
+    "webExt": {
+        "sourceDir": "./src",
+        "artifactsDir": "./dist",
+        "verbose": true,
+        "build": {
+            "overwriteDest": true,
+            "filename": "{name}-{version}.zip"
+        },
+        "run": {
+            "firefox": "firefox",
+            "target": "firefox-desktop"
+        },
+        "lint": {
+            "output": "json",
+            "pretty": true
+        }
+    }
+}

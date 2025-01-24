@@ -1,0 +1,9 @@
+#things i'm not ready to share yet
+*.ignore
+
+#MacOS crap
+*.DS_Store
+
+#testing
+dist/
+test/
