@@ -1,10 +1,9 @@
 {
     "version": { "license": "MPL-2.0" },
     "categories": { "firefox": ["search-tools"] },
-    "contributions_url": "https://donate.mozilla.org",
     "requires_payment": false,
     "homepage": {
-      "en-US": "http://example.org?lang=en-US"
+      "en-US": "https://github.com/LoneStarMac/rice-search_ff-all"
     },
     "support_email": {
       "en-US": "ricesearch.status799@aleeas.com"
