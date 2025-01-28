@@ -1,6 +1,7 @@
 # Quickly search Rice.edu
  A Firefox search engine for search.rice.edu. Now also redraws search.rice.edu to be prettier. :)
-
+ ![search.rice screenshot](https://github.com/LoneStarMac/rice-search_ff-all/blob/77291633bf421d67d54428f68fdc4902ac6fba5f/images/redrawn_screen.png?raw=true)
+ 
 ## How to install
  1) Add the extension from (https://addons.mozilla.org/en-US/firefox/addon/rice-search/)
 
