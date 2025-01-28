@@ -10,3 +10,4 @@ dist/
 test/
 *.amo*
 web-ext-artifacts/
+*_ch*
