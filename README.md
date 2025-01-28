@@ -1,5 +1,5 @@
 # Quickly search Rice.edu
- A Firefox search engine for search.rice.edu. 
+ A Firefox search engine for search.rice.edu. Now also redraws search.rice.edu to be prettier. :)
 
 ## How to install
  1) Add the extension from (https://addons.mozilla.org/)
@@ -9,3 +9,6 @@
  2) Type [R] + [space]
  3) Type the text you want to search
  4) Hit [return] or [enter]
+
+### Toolbar button
+ Now you can also click on the toolbar button and search right in the pop-up. Resutls load in a new tab.
