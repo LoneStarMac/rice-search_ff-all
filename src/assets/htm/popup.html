@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Rice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    #logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    #searchBox {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    #searchInput {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+      font-size: 16px;
+    }
+
+    #searchButton {
+      padding: 10px 20px;
+      border: none;
+      background-color: #00205B;
+      color: white;
+      font-size: 16px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+
+    #searchButton:hover {
+      background-color: #0046a6;
+    }
+
+    #links {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    #links a {
+      margin: 0 10px;
+      color: #00205B;
+      text-decoration: none;
+    }
+
+    #links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="logo">
+    <img src="https://search.rice.edu/static/img/logos/unconventional.1e268a25eafd.jpg" alt="Rice Logo">
+  </div>
+
+  <div id="searchBox">
+    <input type="text" id="searchInput" placeholder="Enter your search query...">
+    <button type="button" id="searchButton">Search</button>
+  </div>
+
+  <div id="links">
+    <a href="https://search.rice.edu/about/content/updates/" target="_blank">Updating Directory Information</a> |
+    <a href="https://search.rice.edu/advanced/" target="_blank">Advanced Search</a> |
+    <a href="https://search.rice.edu/about/content/feedback/" target="_blank">Feedback</a> |
+    <a href="https://search.rice.edu/accounts/login/" target="_blank">Login</a>
+  </div>
+
+  <!-- Correct path to the JS file -->
+  <script src="../js/popup.js"></script>
+</body>
+</html>

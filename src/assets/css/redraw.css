@@ -1,0 +1,192 @@
+body {width:100%}
+#main { 
+    display:flex;
+    flex-direction:column;
+    margin: 10% auto 0;
+    flex: 1;}
+
+#main h1 {border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal}
+
+#go, #actions {
+    display: inline-flex;
+    margin: 0 auto 0;
+    flex: 1;
+}
+#main #logo a {
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 0 auto 0;}
+
+#go form {
+    margin-top:30px;
+    display:inline-flex; 
+    clear:both}
+
+#go input[type="text"],
+#go input[type="button"],
+#go button,
+#go input[type="submit"] 
+    {
+        float:left;
+        position:relative;
+        margin: 5px 0 0 0px;
+        height: 34px;
+        font-size: 16px;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+    #go button,
+    #go input[type="submit"] {
+    background: #003D7C;
+    font-weight: bold;
+    border: solid 2px #003366;
+    color: #FFFFFF;
+    width: 100px;
+    }
+
+
+#actions {
+    margin: 1em auto 0;
+}
+
+#actions a{
+    padding: 0 5px;
+}
+
+#footer {
+    text-align:center;
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+body.advanced-page #footer {
+    text-align:center;
+    position: relative;
+}
+#footer #copyright{    
+    text-align:center;
+    padding-top: 0;
+    padding-left: 0;
+    color: #999999;
+    font-weight: normal;
+    font-size: 0.9em;}
+
+
+    /* General body styles */
+body.advanced-page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Main container */
+#advancedMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% auto;
+    width: 90%;
+    max-width: 800px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the logo */
+#advancedMain #logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#advancedMain #logo img {
+    max-width: 180px;
+    height: auto;
+}
+
+/* Page heading */
+#advancedMain h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003D7C;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Advanced search form container */
+#advancedSearchForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form elements */
+}
+
+/* Form labels */
+#advancedSearchForm form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form inputs */
+#advancedSearchForm form input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#advancedSearchForm form input[type="text"]:focus {
+    border-color: #003D7C;
+    outline: none;
+}
+
+/* Submit button */
+#advancedSearchForm form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #003D7C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#advancedSearchForm form button[type="submit"]:hover {
+    background-color: #002A5C;
+}
+
+/* Footer styles */
+#footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+
+#footer a {
+    color: #003D7C;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
