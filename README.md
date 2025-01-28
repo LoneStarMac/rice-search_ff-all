@@ -2,7 +2,7 @@
  A Firefox search engine for search.rice.edu. Now also redraws search.rice.edu to be prettier. :)
 
 ## How to install
- 1) Add the extension from (https://addons.mozilla.org/)
+ 1) Add the extension from (https://addons.mozilla.org/en-US/firefox/addon/rice-search/)
 
 ## How to use
  1) Select the URI bar (click on it, or press [F6] or [command] + L)
